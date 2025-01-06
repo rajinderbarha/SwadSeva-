@@ -1,0 +1,66 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+coverage/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Environment variables
+.env
+
+# Certificates (for backend SSL/TLS setup)
+swadseva-backend/certs/
+*.pem
+*.key
+*.crt
+
+# Backend uploads and temporary files
+swadseva-backend/uploads/
+swadseva-backend/temp/
+.DS_Store
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+Thumbs.db
+.DS_Store
+
+# OS-specific files
+*.bak
+*.tmp
+
+# TypeScript
+*.tsbuildinfo
+
+# Ignore test coverage reports
+coverage/
+.nyc_output/
+
+# Ignore generated API documentation
+docs/
+
+# Ignore local debugging tools
+debug/
+
+# Ignore GitHub Actions workflows (if generated locally)
+.github/
