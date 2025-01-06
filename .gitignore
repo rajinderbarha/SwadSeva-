@@ -25,11 +25,11 @@ coverage/
 # Environment variables
 .env
 
-# Certificates (for backend SSL/TLS setup)
-swadseva-backend/certs/
-*.pem
-*.key
-*.crt
+# # Certificates (for backend SSL/TLS setup)
+# swadseva-backend/certs/
+# *.pem
+# *.key
+# *.crt
 
 # Backend uploads and temporary files
 swadseva-backend/uploads/
